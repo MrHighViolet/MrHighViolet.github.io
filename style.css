@@ -67,3 +67,11 @@ td {
     margin: 10px 10px 5px 10px;
 }
 
+.greyed-text {
+    color: gray;
+}
+
+hr.divider {
+    border-top: 1px solid #e6e3e3;
+}
+
