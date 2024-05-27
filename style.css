@@ -67,6 +67,12 @@ td {
     margin: 10px 10px 5px 10px;
 }
 
+#ticket {
+    width: 35px;
+    height: 25px;
+    margin: 10px 10px 5px 10px;
+}
+
 .greyed-text {
     color: gray;
 }
