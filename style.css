@@ -81,29 +81,73 @@ hr.divider {
     border-top: 1px solid #e6e3e3;
 }
 
-.main-image {
+.photo-container {
+    position: relative;
+}
+
+.photo-container img {
     width: 96%;
     height: 100%;
     border-radius: 13px;
-    margin: 10px 0px 10px 10px 
+    margin: 10px 0px 10px 10px
+}
+
+.photo-container .btn-l {
+    position: absolute;
+  top: 10%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f9f8f8;
+  color: rgb(1, 1, 1);
+  font-size: 15px;
+  padding: 5px 11px 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.photo-container .btn-r {
+    position: absolute;
+  top: 8%;
+  height: 5%;
+  width: 7%;
+  left: 89%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  text-align: center;
 }
 
 .under-big-photo {
-    border: 1px solid black;
-    font-family:'Courier New', Courier, monospace
+    font-family: 'Rubik';
+    margin: 0px 20px 10px 10px;
+    width:98%;
 }
 
 .left-column {
-    width: 85%;
+    width: 80%;
     text-align: left;
 }
 
 .right-column {
     text-align: right;
     padding-right: 10px;
+    width: 40%;
 }
 
 .star {
     width: 15px;
     height: 13px;
+}
+
+.total {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+.gap {
+    padding-top: 1px;
 }
