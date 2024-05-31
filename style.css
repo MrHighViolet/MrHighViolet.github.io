@@ -77,10 +77,6 @@ td {
     color: gray;
 }
 
-hr.divider {
-    border-top: 1px solid #e6e3e3;
-}
-
 .photo-container {
     position: relative;
 }
@@ -89,7 +85,7 @@ hr.divider {
     width: 96%;
     height: 100%;
     border-radius: 13px;
-    margin: 10px 0px 10px 10px
+    margin: 10px 0px 0px 10px
 }
 
 .photo-container .btn-l {
@@ -123,7 +119,7 @@ hr.divider {
 
 .under-big-photo {
     font-family: 'Rubik';
-    margin: 0px 20px 10px 10px;
+    margin: 10px 20px 30px 10px;
     width:98%;
 }
 
