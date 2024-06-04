@@ -3,12 +3,15 @@
     flex-direction: column;
 }
 
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;;
     font-size: small;
 }
 
@@ -55,7 +58,6 @@ td {
 }
 
 .navigation {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     font-size: .875rem;
 }
 
@@ -150,4 +152,22 @@ td {
 
 .gap {
     padding-top: 1px;
+}
+
+.lower-links {
+    background-color: #f1f1f1d4;
+}
+
+h2 {
+    padding: 55px 0px 0px 15px;
+}
+
+.lower-links-flex {
+    display: flex;
+    gap: 5%;
+    margin-left: 3%;
+}
+
+.links-items {
+    flex: 0 0 auto;
 }
