@@ -206,3 +206,10 @@ h2 {
     margin-top: 5%;
 }
 
+.footer-2 {
+    display: flex;
+}
+
+#world {
+    width: 3%
+}
