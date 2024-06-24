@@ -236,11 +236,16 @@ h2 {
 }
 
 .footer-top-item4 {
-    margin-left: 3%;
+    margin-left: 2.5%;
+    margin-bottom: 0px;
 }
 
 .footer-list {
-    line-height: 27px;
+    line-height: 18px;
+}
+
+ol {
+    padding-inline-start: 13px;
 }
 
 li {
@@ -254,5 +259,9 @@ li {
 }
 
 #umsa {
-    margin-right: 5%;
+    margin-right: 7%;
+}
+
+#s172 {
+    margin-right: 7%;
 }
